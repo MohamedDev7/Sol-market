@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ar">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Slick carousel -->
+		<link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="assets/slick/slick-theme.css"
+		/>
+
+		<!-- Font awesome CDN -->
+
+		<!-- Main stylesheet -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<title>App landing page</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="logo--header">
+				<img
+					src="assets/media/logo/logo@1x.png"
+					alt="Sol logo"
+					class="logo__img"
+				/>
+			</div>
+			<nav class="nav--header">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="nav__link">
+							<div class="nav__icon-container">
+								<img
+									src="assets/media/icons/home@1x.png"
+									alt="Home page icon"
+									class="nav__icon"
+								/>
+							</div>
+							<p class="nav__text">الرئيسية</p>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">
+							<div class="nav__icon-container">
+								<img
+									src="assets/media/icons/products@1x.png"
+									alt="Home page icon"
+									class="nav__icon"
+								/>
+							</div>
+							<p class="nav__text">المنتجات</p>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">
+							<div class="nav__icon-container">
+								<img
+									src="assets/media/icons/shopping-bag@1x.png"
+									alt="Home page icon"
+									class="nav__icon"
+								/>
+							</div>
+							<p class="nav__text">الطلبات</p>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">
+							<div class="nav__icon-container">
+								<img
+									src="assets/media/icons/cart@1x.png"
+									alt="Home page icon"
+									class="nav__icon"
+								/>
+							</div>
+							<p class="nav__text">عربة التسوق</p>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="user-area">
+				<div class="user-area__account">
+					<div class="user-area__account-icon">
+						<img src="assets/media/icons/profile@1x.png" alt="account icon" />
+					</div>
+					هشام محمد
+				</div>
+				<div class="user-area__lang">
+					English
+					<div class="user-area__lang-icon">
+						<img src="assets/media/icons/Globe@1x.png" alt="language icon" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="cart">
+			<div class="empty-cart">
+				<div class="empty-cart__icon">
+					<img src="assets/media/img/empty-box@1x.png" alt="Empty box icon" />
+				</div>
+				<h1 class="empty-cart__heading">عربة التسوق فارغة</h1>
+				<p class="empty-cart__text">لم تقم بإضافة منتجات الى العربة حتى الآن</p>
+				<button class="empty-cart__btn">ابدأ التسوق</button>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<div class="gallery">
+					<h2 class="gallery__title section-heading">المنتجات الأكثر طلبا</h2>
+					<div class="bestsell">
+						<div class="product">
+							<div class="product__img">
+								<img src="assets/media/img/red-apple@1x.png" alt="Red apple" />
+							</div>
+							<div class="product__info">
+								<h3 class="product__title">تفاح أحمر</h3>
+								<p class="product__weight">كيلو جرام</p>
+								<div class="product__price">
+									23 <span class="product__price--curr">ر.س</span>
+								</div>
+							</div>
+							<div class="product__order">
+								<div class="product__controller">
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/plus@1x.png"
+											alt="plus"
+											class="product__controller-icon"
+										/>
+									</button>
+									<p class="product__qnt">3</p>
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/min@1x.png"
+											alt="min"
+											class="product__controller-icon"
+										/>
+									</button>
+								</div>
+								<button class="add-to-cart">
+									اضف للسلة
+									<div class="add-to-cart__icon">
+										<img
+											src="assets/media/icons/cart-white@1x.png"
+											alt="cart"
+										/>
+									</div>
+								</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product__img">
+								<img src="assets/media/img/product-1@x1.png" alt="Red apple" />
+							</div>
+							<div class="product__info">
+								<h3 class="product__title">أناناس طبيعي</h3>
+								<p class="product__weight">كيلو جرام</p>
+								<div class="product__price">
+									23 <span class="product__price--curr">ر.س</span>
+								</div>
+							</div>
+							<div class="product__order">
+								<div class="product__controller">
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/plus@1x.png"
+											alt="plus"
+											class="product__controller-icon"
+										/>
+									</button>
+									<p class="product__qnt">3</p>
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/min@1x.png"
+											alt="min"
+											class="product__controller-icon"
+										/>
+									</button>
+								</div>
+								<button class="add-to-cart">
+									اضف للسلة
+									<div class="add-to-cart__icon">
+										<img
+											src="assets/media/icons/cart-white@1x.png"
+											alt="cart"
+										/>
+									</div>
+								</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product__img">
+								<img src="assets/media/img/product-2@x1.png" alt="Red apple" />
+							</div>
+							<div class="product__info">
+								<h3 class="product__title">كيوي</h3>
+								<p class="product__weight">كيلو جرام</p>
+								<div class="product__price">
+									23 <span class="product__price--curr">ر.س</span>
+								</div>
+							</div>
+							<div class="product__order">
+								<div class="product__controller">
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/plus@1x.png"
+											alt="plus"
+											class="product__controller-icon"
+										/>
+									</button>
+									<p class="product__qnt">3</p>
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/min@1x.png"
+											alt="min"
+											class="product__controller-icon"
+										/>
+									</button>
+								</div>
+								<button class="add-to-cart">
+									اضف للسلة
+									<div class="add-to-cart__icon">
+										<img
+											src="assets/media/icons/cart-white@1x.png"
+											alt="cart"
+										/>
+									</div>
+								</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product__img">
+								<img src="assets/media/img/product-3@x1.png" alt="Red apple" />
+							</div>
+							<div class="product__info">
+								<h3 class="product__title">برتقال سكري</h3>
+								<p class="product__weight">كيلو جرام</p>
+								<div class="product__price">
+									23 <span class="product__price--curr">ر.س</span>
+								</div>
+							</div>
+							<div class="product__order">
+								<div class="product__controller">
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/plus@1x.png"
+											alt="plus"
+											class="product__controller-icon"
+										/>
+									</button>
+									<p class="product__qnt">3</p>
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/min@1x.png"
+											alt="min"
+											class="product__controller-icon"
+										/>
+									</button>
+								</div>
+								<button class="add-to-cart">
+									اضف للسلة
+									<div class="add-to-cart__icon">
+										<img
+											src="assets/media/icons/cart-white@1x.png"
+											alt="cart"
+										/>
+									</div>
+								</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product__img">
+								<img src="assets/media/img/product-4@x1.png" alt="Red apple" />
+							</div>
+							<div class="product__info">
+								<h3 class="product__title">مانجو</h3>
+								<p class="product__weight">كيلو جرام</p>
+								<div class="product__price">
+									23 <span class="product__price--curr">ر.س</span>
+								</div>
+							</div>
+							<div class="product__order">
+								<div class="product__controller">
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/plus@1x.png"
+											alt="plus"
+											class="product__controller-icon"
+										/>
+									</button>
+									<p class="product__qnt">3</p>
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/min@1x.png"
+											alt="min"
+											class="product__controller-icon"
+										/>
+									</button>
+								</div>
+								<button class="add-to-cart">
+									اضف للسلة
+									<div class="add-to-cart__icon">
+										<img
+											src="assets/media/icons/cart-white@1x.png"
+											alt="cart"
+										/>
+									</div>
+								</button>
+							</div>
+						</div>
+						<div class="product">
+							<div class="product__img">
+								<img src="assets/media/img/red-apple@1x.png" alt="Red apple" />
+							</div>
+							<div class="product__info">
+								<h3 class="product__title">تفاح أحمر</h3>
+								<p class="product__weight">كيلو جرام</p>
+								<div class="product__price">
+									23 <span class="product__price--curr">ر.س</span>
+								</div>
+							</div>
+							<div class="product__order">
+								<div class="product__controller">
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/plus@1x.png"
+											alt="plus"
+											class="product__controller-icon"
+										/>
+									</button>
+									<p class="product__qnt">3</p>
+									<button class="product__controller-btn">
+										<img
+											src="assets/media/icons/min@1x.png"
+											alt="min"
+											class="product__controller-icon"
+										/>
+									</button>
+								</div>
+								<button class="add-to-cart">
+									اضف للسلة
+									<div class="add-to-cart__icon">
+										<img
+											src="assets/media/icons/cart-white@1x.png"
+											alt="cart"
+										/>
+									</div>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<div class="gallery">
+					<h2 class="section-heading">منتجات مميزة</h2>
+					<div class="special-products">
+						<div class="slick-slid">
+							<div class="product">
+								<div class="product__img">
+									<img
+										src="assets/media/img/red-apple@1x.png"
+										alt="Red apple"
+									/>
+								</div>
+								<div class="product__info">
+									<h3 class="product__title">تفاح أحمر</h3>
+									<p class="product__weight">كيلو جرام</p>
+									<div class="product__price">
+										23 <span class="product__price--curr">ر.س</span>
+									</div>
+								</div>
+								<div class="product__order">
+									<div class="product__controller">
+										<button class="product__controller-btn">
+											<img
+												src="assets/media/icons/plus@1x.png"
+												alt="plus"
+												class="product__controller-icon"
+											/>
+										</button>
+										<p class="product__qnt">3</p>
+										<button class="product__controller-btn">
+											<img
+												src="assets/media/icons/min@1x.png"
+												alt="min"
+												class="product__controller-icon"
+											/>
+										</button>
+									</div>
+									<button class="add-to-cart">
+										اضف للسلة
+										<div class="add-to-cart__icon">
+											<img
+												src="assets/media/icons/cart-white@1x.png"
+												alt="cart"
+											/>
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="slick-slid">
+							<div class="product">
+								<div class="product__img">
+									<img
+										src="assets/media/img/product-1@x1.png"
+										alt="Red apple"
+									/>
+								</div>
+								<div class="product__info">
+									<h3 class="product__title">تفاح أحمر</h3>
+									<p class="product__weight">كيلو جرام</p>
+									<div class="product__price">
+										23 <span class="product__price--curr">ر.س</span>
+									</div>
+								</div>
+								<div class="product__order">
+									<div class="product__controller">
+										<button class="product__controller-btn">
+											<img
+												src="assets/media/icons/plus@1x.png"
+												alt="plus"
+												class="product__controller-icon"
+											/>
+										</button>
+										<p class="product__qnt">3</p>
+										<button class="product__controller-btn">
+											<img
+												src="assets/media/icons/min@1x.png"
+												alt="min"
+												class="product__controller-icon"
+											/>
+										</button>
+									</div>
+									<button class="add-to-cart">
+										اضف للسلة
+										<div class="add-to-cart__icon">
+											<img
+												src="assets/media/icons/cart-white@1x.png"
+												alt="cart"
+											/>
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="slick-slid">
+							<div class="product">
+								<div class="product__img">
+									<img
+										src="assets/media/img/product-2@x1.png"
+										alt="Red apple"
+									/>
+								</div>
+								<div class="product__info">
+									<h3 class="product__title">تفاح أحمر</h3>
+									<p class="product__weight">كيلو جرام</p>
+									<div class="product__price">
+										23 <span class="product__price--curr">ر.س</span>
+									</div>
+								</div>
+								<div class="product__order">
+									<div class="product__controller">
+										<button class="product__controller-btn">
+											<img
+												src="assets/media/icons/plus@1x.png"
+												alt="plus"
+												class="product__controller-icon"
+											/>
+										</button>
+										<p class="product__qnt">3</p>
+										<button class="product__controller-btn">
+											<img
+												src="assets/media/icons/min@1x.png"
+												alt="min"
+												class="product__controller-icon"
+											/>
+										</button>
+									</div>
+									<button class="add-to-cart">
+										اضف للسلة
+										<div class="add-to-cart__icon">
+											<img
+												src="assets/media/icons/cart-white@1x.png"
+												alt="cart"
+											/>
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="slick-slid">
+							<div class="product">
+								<div class="product__img">
+									<img
+										src="assets/media/img/product-3@x1.png"
+										alt="Red apple"
+									/>
+								</div>
+								<div class="product__info">
+									<h3 class="product__title">تفاح أحمر</h3>
+									<p class="product__weight">كيلو جرام</p>
+									<div class="product__price">
+										23 <span class="product__price--curr">ر.س</span>
+									</div>
+								</div>
+								<div class="product__order">
+									<div class="product__controller">
+										<button class="product__controller-btn">
+											<img
+												src="assets/media/icons/plus@1x.png"
+												alt="plus"
+												class="product__controller-icon"
+											/>
+										</button>
+										<p class="product__qnt">3</p>
+										<button class="product__controller-btn">
+											<img
+												src="assets/media/icons/min@1x.png"
+												alt="min"
+												class="product__controller-icon"
+											/>
+										</button>
+									</div>
+									<button class="add-to-cart">
+										اضف للسلة
+										<div class="add-to-cart__icon">
+											<img
+												src="assets/media/icons/cart-white@1x.png"
+												alt="cart"
+											/>
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer__section container">
+				<div class="social">
+					<ul class="social__list">
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<div class="social__icon-container">
+									<img
+										src="assets/media/icons/facebook@1x.png"
+										alt=""
+										class="social__icon"
+									/>
+								</div>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<div class="social__icon-container">
+									<img
+										src="assets/media/icons/youtube@1x.png"
+										alt=""
+										class="social__icon"
+									/>
+								</div>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<div class="social__icon-container">
+									<img
+										src="assets/media/icons/instagram@1x.png"
+										alt=""
+										class="social__icon"
+									/>
+								</div>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<div class="social__icon-container">
+									<img
+										src="assets/media/icons/twitter@1x.png"
+										alt=""
+										class="social__icon"
+									/>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="logo--footer">
+					<img
+						src="assets/media/logo/logo-white@1x.png"
+						alt="Sol logo"
+						class="logo__img"
+					/>
+				</div>
+				<nav class="nav--footer">
+					<ul class="nav__list--footer">
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<p class="nav__text">الدعم الفني</p>
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<p class="nav__text">عنا</p>
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<p class="nav__text">العنوان</p>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer__copywrite">© .ةظوفحم قوقحلا عيمج 0202</div>
+		</footer>
+
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+		<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
