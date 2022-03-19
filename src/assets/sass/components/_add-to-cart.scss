@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/placeholders" as *;
+.add-to-cart {
+	@extend %flex-full;
+	width: 150px;
+	height: 47px;
+	border-radius: 10px;
+	background-color: $color-primary;
+	&__icon {
+		margin-right: 12px;
+	}
+}

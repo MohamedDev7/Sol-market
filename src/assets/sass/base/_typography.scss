@@ -1,0 +1,107 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+// **********************************************************************************************
+// **                                                                                          **
+// **                                   GENERAL TYPOGRAPHY                                     **
+// **                                                                                          **
+// **********************************************************************************************
+//HEADINGS
+///////////////////////////////////////////////
+
+.section-heading {
+	font-size: 45px;
+	font-weight: 500;
+	@include respond(bp-992) {
+		font-size: 32px;
+	}
+}
+
+//PARAGRAPHS
+//////////////////////////////////////////////
+
+// **********************************************************************************************
+// **                                                                                          **
+// **                                     LAYOUTS                                              **
+// **                                                                                          **
+// **********************************************************************************************
+.header {
+	font-size: 18px;
+	color: $color-grey;
+}
+.empty-cart {
+	text-align: center;
+	&__heading {
+		font-size: 50px;
+		color: $color-grey-dark;
+		font-weight: 400;
+		@include respond(bp-992) {
+			font-size: 32px;
+		}
+	}
+	&__text {
+		font-size: 25px;
+		color: $color-grey;
+		@include respond(bp-992) {
+			font-size: 18px;
+		}
+	}
+	&__btn {
+		font-size: 22px;
+		color: $color-white;
+		@include respond(bp-992) {
+			font-size: 18px;
+		}
+	}
+}
+
+.footer {
+	font-size: 18px;
+	color: $color-white;
+	&__nav {
+		font-weight: 500;
+	}
+}
+// **********************************************************************************************
+// **                                                                                          **
+// **                                     components                                           **
+// **                                                                                          **
+// **********************************************************************************************
+.user-area {
+	&__account {
+		color: $color-white;
+		font-size: 15px;
+		font-weight: 500;
+	}
+
+	&__lang {
+		font-size: 18px;
+	}
+}
+.product {
+	font-weight: 500;
+	&__title {
+		font-size: 20px;
+		font-weight: 500;
+	}
+	&__weight {
+		font-size: 18px;
+	}
+	&__price {
+		color: $color-primary;
+		font-size: 38px;
+		&--curr {
+			color: $color-grey-dark;
+			font-size: 21px;
+			font-weight: 400;
+		}
+	}
+	&__qnt {
+		font-size: 25px;
+	}
+}
+.add-to-cart {
+	color: $color-white;
+	font-size: 17px;
+	font-weight: 500;
+}

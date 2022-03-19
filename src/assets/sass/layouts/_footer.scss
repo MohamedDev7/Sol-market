@@ -1,0 +1,19 @@
+@use "../abstracts/placeholders" as *;
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+.footer {
+	@extend %flex-full;
+	flex-direction: column;
+	background-color: $color-primary;
+	height: 160px;
+	&__section {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		@include respond(bp-768) {
+			grid-template-columns: 1fr;
+		}
+	}
+	&__copywrite {
+		margin-top: 20px;
+	}
+}

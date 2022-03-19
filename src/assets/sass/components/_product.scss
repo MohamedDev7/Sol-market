@@ -1,0 +1,45 @@
+@use "../abstracts/placeholders" as *;
+.product {
+	display: flex;
+	gap: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	&__img {
+		width: 105px;
+		height: 120px;
+	}
+	&__info {
+		@extend %flex-align;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&__title {
+		margin-bottom: 10px;
+	}
+	&__price {
+		@extend %flex-align;
+
+		&--curr {
+			margin: 0 5px;
+		}
+	}
+	&__order {
+		display: flex;
+		flex-direction: column;
+	}
+	&__controller {
+		@extend %flex-align;
+		gap: 17px;
+		margin-bottom: 30px;
+	}
+	&__controller-btn {
+		height: 42px;
+		width: 42px;
+		border-radius: 9px;
+		background-color: #f0f6ff;
+	}
+	&__controller-icon {
+		width: 26px;
+		height: 26px;
+	}
+}

@@ -1,0 +1,8 @@
+.gallery {
+	border-top: 1px solid rgba($color: #000000, $alpha: 0.15);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}

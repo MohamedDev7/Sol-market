@@ -1,0 +1,21 @@
+@use "../abstracts/placeholders" as *;
+@use "../abstracts/mixins" as *;
+.social {
+	@include respond(bp-768) {
+		display: none;
+	}
+	&__list {
+		@extend %flex-align;
+		gap: 25px;
+	}
+	&__item {
+	}
+	&__link {
+	}
+	&__icon-container {
+		width: fit-content;
+		height: fit-content;
+	}
+	&__icon {
+	}
+}

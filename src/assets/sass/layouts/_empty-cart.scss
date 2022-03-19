@@ -1,0 +1,21 @@
+@use "../abstracts/placeholders" as *;
+@use "../abstracts/variables" as *;
+.empty-cart {
+	@extend %flex-full;
+	flex-direction: column;
+	margin-top: 160px;
+	&__icon {
+		width: 208px;
+		height: 208px;
+	}
+	&__heading {
+		margin: 15px 0;
+	}
+	&__btn {
+		background-color: $color-primary;
+		padding: 12px 120px;
+		border-radius: 20px;
+		font-size: 22px;
+		margin-top: 40px;
+	}
+}
